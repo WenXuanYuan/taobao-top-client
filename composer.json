@@ -16,6 +16,13 @@
         "illuminate/support": "~5.0|~5.1|~5.2|~5.3|~5.4|~5.5",
         "graham-campbell/manager": "^2.0|^3.0"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oyleanu\\TopClient\\TopClientServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Oyleanu\\TopClient\\": "src/",
